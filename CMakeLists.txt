@@ -15,7 +15,7 @@ include_directories("${PROJECT_BINARY_DIR}")
 
 # to compile with -std=c++11 flag 
 option (USE_CXX11 
-        "C++11 compatibiity, mostly for the random generator class" ON)
+        "C++11 compatibiity, mostly for the random generator class" OFF)
 if (USE_CXX11)
    set (CMAKE_CXX_FLAGS "-std=c++11")
 endif (USE_CXX11)
