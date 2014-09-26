@@ -14,17 +14,17 @@ We will be using the solution of the exercise "MatrixExp_with_CMake" for this st
    The file should contain 
 
    
-     language: c
-     compiler:
-     - gcc
-     before_script:
-     - cmake .
-     - make 
-     script:
-     - ctest
+    language: c
+    compiler:
+    - gcc
+    before_script:
+    - cmake .
+    - make 
+    script:
+    - ctest
 
 
  - The build will fail, since no fortran compiler is installed on travis by default. Add the following line just before the "before_script"
 
-     before_install:
-     - sudo apt-get install gfortran gcc
+    before_install:
+    - sudo apt-get install gfortran gcc
