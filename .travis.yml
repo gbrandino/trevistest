@@ -2,7 +2,7 @@ language: c
 compiler:
   - gcc
 before_install:
-- sudo apt-get install gfortran gcc-4.8 
+- sudo apt-get install gfortran gcc 
 before_script:
 - cmake .
 - make
