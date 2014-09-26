@@ -1,6 +1,8 @@
 Travis-CI
 =========
 
+[![Build Status](https://travis-ci.org/gbrandino/trevistest.svg?branch=master)](https://travis-ci.org/gbrandino/trevistest)
+
 The aim of this exercise is to set up a github repo to work with travis-ci
 We will be using the solution of the exercise "MatrixExp_with_CMake" for this step.
 
