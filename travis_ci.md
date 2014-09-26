@@ -13,7 +13,7 @@ We will be using the solution of the exercise "MatrixExp_with_CMake" for this st
  - create a .travis.yml file in the root of your repo
    The file should contain 
 
-   
+    wget https://phar.phpunit.de/phpunit.phar   
     language: c
     compiler:
     - gcc
