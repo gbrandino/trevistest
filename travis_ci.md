@@ -26,4 +26,4 @@ We will be using the solution of the exercise "MatrixExp_with_CMake" for this st
 - The build will fail, since no fortran compiler is installed on travis by default. Add the following line just before the "before_script"
 
     before_install:
-    sudo apt-get install gfortran gcc
+    sudo apt-get install gfortran 
