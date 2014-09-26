@@ -1,6 +1,10 @@
 language: c
 compiler:
   - gcc
-# Change this to your needs
-script: cmake . && make
-
+before_install:
+- sudo apt-get install gfortran 
+before_script:
+- cmake .
+- make
+script:
+- ctest
