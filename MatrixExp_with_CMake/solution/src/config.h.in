@@ -1,3 +1,0 @@
-// the configured options and settings for MatrixExp
-#define MatrixExp_VERSION_MAJOR @MatrixExp_VERSION_MAJOR@
-#define MatrixExp_VERSION_MINOR @MatrixExp_VERSION_MINOR@
