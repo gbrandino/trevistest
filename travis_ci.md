@@ -10,20 +10,19 @@ We will be using the solution of the exercise "MatrixExp_with_CMake" for this st
  - (for compatibility with travis (which uses gcc-4.6, in CMakeLists.txt modify the std=c++11 in c++0x, or set the USE_CXX11 to have "OFF" as default) 
  - create a .travis.yml file in the root of your repo
    The file should contain 
-   ::
 
    
-   language: c
-   compiler:
-   - gcc
-   before_script:
-   - cmake .
-   - make 
-   script:
-   - ctest
+     language: c
+     compiler:
+     - gcc
+     before_script:
+     - cmake .
+     - make 
+     script:
+     - ctest
 
 
  - The build will fail, since no fortran compiler is installed on travis by default. Add the following line just before the "before_script"
-   ::
-   before_install:
-   - sudo apt-get install gfortran gcc
+
+     before_install:
+     - sudo apt-get install gfortran gcc
