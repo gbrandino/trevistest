@@ -7,7 +7,7 @@ In this exercise you will have to fill in a table (provided on your GitHub repos
 
         1 Before starting this exercise session, please read carefully the document CompilerAutoVectorizationGuide.pdf, available on the moodle.
 
-        2 Login into each machine using your account credentials (see the [Resources guide](./README.md) in the repo root)
+        2 Login into each machine using your account credentials (see the [Resources guide!](./README.md) in the repo root)
 
         3 Have a look at the CPU models on available platforms and find out the related *theoretical CPU peak performance* :
 
