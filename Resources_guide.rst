@@ -31,12 +31,12 @@ Access is provided via  ssh, and the machine can be reached with the following c
 
 Argo: 
 
- - ssh *{your-ictp-username}@argo.ictp.it*
+- ssh *{your-ictp-username}@argo.ictp.it*
 
 Elcid: 
 
- - Logon SISSA-VPN network (see http://www.itcs.sissa.it/services/network/vpnclient to configure it)
- - ssh *{your-sissa-username}@elcid.hpc.sissa.it*
+- Logon SISSA-VPN network (see http://www.itcs.sissa.it/services/network/vpnclient to configure it)
+- ssh *{your-sissa-username}@elcid.hpc.sissa.it*
 
 
 Available queues
@@ -44,12 +44,12 @@ Available queues
 
 Argo: 
 
- - *mhpc*  : 4 computing nodes
- - *gpu* : 1 computing node with 2 NVIDIA TESLA K20
+- *mhpc*  : 4 computing nodes
+- *gpu* : 1 computing node with 2 NVIDIA TESLA K20
 
 Elcid: 
 
- - *mhpc* : 2 computing nodes
+- *mhpc* : 2 computing nodes
 
 
 Submitting a job 
