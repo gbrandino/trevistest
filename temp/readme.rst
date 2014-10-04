@@ -31,6 +31,3 @@ In this exercise you will have to fill in a table (provided on your GitHub repos
 	8. Commit all your source files, the Makefile and the filled table in *rst* format alongside a text file containing all your logs.
 
 .. _here: ../Resources_guide.rst
-
-.. role:: raw-math(raw)
-    :format: latex html
