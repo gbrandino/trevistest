@@ -17,10 +17,7 @@ In this exercise you will have to fill in a table (provided on your GitHub repos
 
 	   (Suggestion: find out each CPU model through appropriate Linux CLI commands and check its vendor reference webpage.)
  
-        4. Write a code performing a trivial matrix multiplication and giving as output the number of FLOPS (floating point operations) per second. Remember from linear algebra that the matrix multiplication is defined as 
-
-.. math: C_{i,j} = \sum_{k=1}^{m} A_{i,k} \cdot B_{k,j}
-
+        4. Write a code performing a trivial matrix multiplication and giving as output the number of FLOPS (floating point operations) per second. Remember from linear algebra that the matrix multiplication is defined as :math: 'C_{i,j} = \sum_{k=1}^{m} A_{i,k} \cdot B_{k,j}' 
 
 		a) Build and run your code on each of the three platforms and save the output logs produced by both the compiler and the running code.
 		b) Record your data obtained on all the three platforms by using Intel compiler with different optimization options: -­O3, ­-O3 ­-no­-vec, ­-O3 [enforcing maximum supported compiler optimization within available instruction set: which is it? go and look for it!]. Again save your logs as in a).
