@@ -31,12 +31,12 @@ Access is provided via  ssh, and the machine can be reached with the following c
 
 Argo: 
 
-- ssh *{your-ictp-username}@argo.ictp.it*
+- *ssh {your-ictp-username}@argo.ictp.it*
 
 Elcid: 
 
 - Logon SISSA-VPN network (see http://www.itcs.sissa.it/services/network/vpnclient to configure it)
-- ssh *{your-sissa-username}@elcid.hpc.sissa.it*
+- *ssh {your-sissa-username}@elcid.hpc.sissa.it*
 
 
 Available queues
