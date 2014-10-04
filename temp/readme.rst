@@ -15,10 +15,11 @@ In this exercise you will have to fill in a table (provided on your GitHub repos
 		b) Argo mhpc queue nodes
 		c) ELCID mhpc queue AMD nodes
 
-	  (Suggestion: find out each CPU model through appropriate Linux CLI commands and check its vendor reference webpage.)
+	   (Suggestion: find out each CPU model through appropriate Linux CLI commands and check its vendor reference webpage.)
  
         4. Write a code performing a trivial matrix multiplication and giving as output the number of FLOPS (floating point operations) per second. Remember from linear algebra that the matrix multiplication is defined as 
-           :math: 'C_{i,j} = \sum_{k=1}^{m} A_{i,k} \cdot B_{k,j}'
+
+.. math: C_{i,j} = \sum_{k=1}^{m} A_{i,k} \cdot B_{k,j}
 
 
 		a) Build and run your code on each of the three platforms and save the output logs produced by both the compiler and the running code.
